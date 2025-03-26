@@ -1,4 +1,3 @@
-const showImage = document.getElementById("body");
 const body = document.getElementById("body");
 const colours = [
   "#FF5733",
@@ -17,6 +16,8 @@ const catImages = [
   "../images/cats/lily.jpg",
   "../images/cats/muffin.jpg",
   "../images/cats/ziggy.jpg",
+  "../images/cats/lucky.jpg",
+  "../images/cats/mickey.jpg",
 ];
 
 body.addEventListener("click", () => {
@@ -30,7 +31,7 @@ const randomColourAnimationLoop = () => {
   setTimeout(randomColourAnimationLoop, 1000);
 };
 
-showImage.addEventListener("click", (event) => {
+body.addEventListener("click", (event) => {
   const img = document.createElement("img");
   img.src = catImages[Math.floor(Math.random() * catImages.length)];
   img.className = "w-60 h-auto max-w-xl rounded-lg";
