@@ -1,5 +1,5 @@
 # Fontys DEV assignments
 
-A repository consisting of all the assignments during the DEV subject.
+This repository contains all assignments for the Development (DEV) course at Fontys University of Applied Sciences.
 
 ## AI prompts
