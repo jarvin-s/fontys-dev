@@ -2,4 +2,4 @@
 
 A repository consisting of all the assignments during the DEV subject.
 
-## AI prompts used
+## AI prompts
